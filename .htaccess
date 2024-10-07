@@ -1,0 +1,13 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/impecpyh/EstBackend"
+PassengerBaseURI "/"
+PassengerNodejs "/home/impecpyh/nodevenv/EstBackend/14/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv MONGODB_URI "mongodb+srv://alycmgmarketing:ptX6qm57aNnCLvl6@cluster0.8jucn3w.mongodb.net/?retryWrites=true&w=majority"
+SetEnv PORT 8000
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
